@@ -1,0 +1,72 @@
+.createform-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createform-header{
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45),
+                 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.createform-main{
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), 
+                inset 5px 5px 9px rgba(94,104,121,0.3);
+    
+}
+
+.cf-input{
+    margin: 10px;
+    font-weight: 800;
+    height: 20px;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    background: #cdd1d7;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+
+.cf-types{
+    margin:10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.cf-type-btn,
+.dlt-btn,
+.submit-btn{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 7px;
+    background: #cdd1d7 ;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 
+                5px 5px 9px rgba(94,104,121,0.3);
+    border: none;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.650);
+    cursor: pointer;
+}
+
+.cf-type-btn:active,
+.dlt-btn:active,
+.submit-btn:active{ 
+    box-shadow: inset -3px -3px 5px rgba(255,255,255,0.45), inset 3px 3px 5px rgba(94,104,121,0.3);
+}
